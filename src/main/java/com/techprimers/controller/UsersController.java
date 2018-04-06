@@ -35,7 +35,7 @@ public class UsersController {
 
 //mySQL properties in application.properties 
 /*server.port=8080
-spring.datasource.url=jdbc:mysql://sql9.freesqldatabase.com:3306/sql9145487
+spring.datasource.url=jdbc:mysql://sql9.*************.com:3306/sql9145487
 spring.datasource.username=sql9145487
 spring.datasource.password=dw4I6QLCZl
 spring.jpa.hibernate.ddl-auto=create-drop*/
@@ -54,7 +54,7 @@ spring.jpa.hibernate.ddl-auto=create-drop*/
 /*server.port=8080
 spring.datasource.url=jdbc:mysql://awsmysql.csv2cf85mytg.us-west-2.rds.amazonaws.com:3306/awsmysql
 spring.datasource.username=awsmysql
-spring.datasource.password=Awsmysql12345
+spring.datasource.password=*************
 spring.jpa.hibernate.ddl-auto=create-drop
 
 spring.datasource.driver-class-name=com.mysql.jdbc.Driver
