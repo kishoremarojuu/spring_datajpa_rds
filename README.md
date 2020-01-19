@@ -1,9 +1,6 @@
 # spring_datajpa_rds
 spring data jpa with RDS(h2, mysql remote, aws rds)
 
-# spring_datajpa_rds
-spring data jpa with RDS(h2, mysql remote, aws rds)
-
 
 This project will guide you to connect to mysql database
 for this example I have hosted mysql database in aws console
