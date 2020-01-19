@@ -110,7 +110,7 @@ http://ec2-34-239-126-27.compute-1.amazonaws.com:8084/users/all
 
 22.Make sure security groups are open in inbound rules from your laptop
 open ssh and http, https
-how to find my pulic IP  in browser ?
+how to find my pulic IP  in browser ? 
 grap the ipv4 address
 I have attached following inbound rules to allow traffic from mylaptop and from ec2 as well
 Type         Protocol   Port Range   Source
