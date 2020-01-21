@@ -45,7 +45,7 @@ jobs:
       with:
         aws-access-key-id: AKIA5Y3AFTXNUJZ5TZOB
         aws-secret-access-key: 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
-        aws-region: us-east-2
+        aws-region: us-east-1
 
     - name: Login to Amazon ECR
       id: login-ecr
