@@ -69,6 +69,8 @@ docker container rm "containerName"  -->to remove container
 docker port "containerID"  -->to know on what port the container is listening
 docker exec -it "containerId" bash --> to login into the running container
 curl http://localhost:8085/users/all --> for testing from cmd
+pull the image from dockerHub:
+docker pull kishoremarojuu/spring_datajpa_rds:latest
 
 13.To push the image into dockerHub
 docker push kishoremarojuu/spring_datajpa_rds:latest
@@ -95,9 +97,6 @@ sudo docker service start
 
 18. Login into the docker hub
 docker login
-
-19. pull the image from dockerHub:
-docker pull kishoremarojuu/spring_datajpa_rds:latest
 
 20. run the image
 docker run -d -p 80:8085 kishoremarojuu/spring_datajpa_rds  --> this will run the app
