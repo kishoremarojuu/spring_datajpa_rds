@@ -30,6 +30,9 @@ use http://localhost:8085/users/all to fetch the data from get URL
 
 local working with docker:
 1. create a file called Dockerfile in local
+Approach1: Installing docker in windows 10 home
+if you are using windows 10 home, follow the below steps to install docker
+we will install docker toolbox, that will run on a virutal machine and we interact with virutal machine
 2. Install docker in your local https://docs.docker.com/toolbox/toolbox_install_windows/ and
 https://www.youtube.com/watch?v=ymlWt1MqURY&t=49s and Make sure 'virtualization is enabled' in local by going to taskmanager/performance
 4. You need to set some paths in env variables
@@ -43,6 +46,13 @@ docker is configured to use the default machine with IP *******192.168.99.100***
 of localhost in windows as it started on virtual machine inside windows
 6. create account in https://hub.docker.com/ if you don't have one
 commands : docker login
+Note: this will install virtual machine
+
+6.Approach2: installing docker in windows 10 pro
+installing docker in windows 10 pro is pretty simple, 
+Simply download installer.exe https://hub.docker.com/editions/community/docker-ce-desktop-windows/
+open DockerDesktop , that will start dockerDesktop in the background 
+once the docker is up, run the docker -version to test it.
 
 7. Docker commands from now on
 docker build -f Dockerfile -t spring_datajpa_rds .
