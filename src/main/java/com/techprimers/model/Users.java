@@ -11,6 +11,15 @@ public class Users {
     private String name;
     private String teamName;
     private Integer salary;
+    private String gender;
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
 
     @Id
     @GeneratedValue
@@ -45,4 +54,6 @@ public class Users {
     public void setSalary(Integer salary) {
         this.salary = salary;
     }
+
+
 }
