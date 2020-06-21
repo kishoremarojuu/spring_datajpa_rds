@@ -12,6 +12,7 @@ public class Users {
     private String teamName;
     private Integer salary;
     private String gender;
+    private String city;
 
     public String getGender() {
         return gender;
@@ -19,6 +20,14 @@ public class Users {
 
     public void setGender(String gender) {
         this.gender = gender;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
     }
 
     @Id
