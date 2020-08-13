@@ -14,3 +14,10 @@ public class SpringDatajpaRdsApplicationTests {
 	}
 
 }
+public class SpringDatajpaRdsApplicationTests {
+
+	@Test
+	public void contextLoadstestclass() {
+	}
+
+}
