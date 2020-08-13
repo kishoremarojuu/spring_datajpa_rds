@@ -29,8 +29,14 @@ public class UsersController {
         userJpaRespository.save(users);
         return userJpaRespository.findByName(users.getName());
     }
-    
-  
+
+    @PostMapping(value = "/loadFinancialData")
+    public Users loadFinancialData(@RequestBody  final Users users) {
+        System.out.println("I am loading financial data");
+        userJpaRespository.save(users);
+        return userJpaRespository.findByName(users.getName());
+    }
+
 }
 
 //mySQL properties in application.properties 
