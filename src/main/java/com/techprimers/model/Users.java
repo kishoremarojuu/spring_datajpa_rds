@@ -13,7 +13,7 @@ public class Users {
     private Integer salary;
     private String gender;
     private String city;
-    private String rollNumber; 
+    private String indentificationNumber;
 
     public String getGender() {
         return gender;
