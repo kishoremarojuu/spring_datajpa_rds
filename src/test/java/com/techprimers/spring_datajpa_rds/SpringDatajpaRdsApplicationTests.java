@@ -17,7 +17,7 @@ public class SpringDatajpaRdsApplicationTests {
 public class SpringDatajpaRdsApplicationTests {
 
 	@Test
-	public void contextLoadstest() {
+	public void contextLoadstestclass() {
 	}
 
 }
